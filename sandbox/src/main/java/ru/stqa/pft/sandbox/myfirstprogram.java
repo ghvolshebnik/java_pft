@@ -2,6 +2,11 @@ package ru.stqa.pft.sandbox;
 
 public class myfirstprogram {
   public static void main(String[] args) {
+    Point p1 = new Point (1,1);
+    Point p2 = new Point (1,10);
+    System.out.println("rasstoyanie mezhdu tochkami = " + p1.distance(p2) + " sm");
+
+
     hello("World");
     hello("Artem!");
 
